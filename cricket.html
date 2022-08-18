@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .GAME{
+            border: 1px solid lightblue;
+        }
+        .ball{
+            width: 80px;
+            height: 80px;
+            background-color: brown;
+            border-radius: 40px;
+            position: relative;
+            left: 500px;
+            top: -100px;
+            transition: transform 2s ease-out 0.5s;
+        }
+          .ball:hover{
+            transform: translate(700PX);
+        }
+        .GAME:hover .man{
+            transform: rotate(-60deg);
+            transform-origin: top;
+
+        }
+        .man{
+            transition: transform 0.5s;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="GAME">
+        <img class="man" src="BEST2.png" alt="">
+        
+
+    </div>
+    <div class="ball">
+
+    </div>
+</body>
+</html>
