@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        .menu-container{
+            display: flex;
+        }
+        .food{
+            border: 3px solid rosybrown;
+            width: 300px;
+        }
+        .food img{
+            width: 75%;
+        }
+        @media (max-width :700px) {
+            .food{
+                background-color: purple;
+                margin: 20px;
+            }
+            .menu-container{
+                flex-direction: column;
+            }
+        }
+        @media (min-width :900px) {
+            .food{
+                background-color:hotpink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="food">
+            <img src="all.webp" alt="">
+            <h2>price:1000</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aliquid vero aperiam nobis, minima obcaecati quia sit velit pariatur porro ut praesentium laboriosam voluptatem accusantium amet molestias distinctio mollitia iste sunt aliquam qui. Illo repellendus natus maiores nostrum vitae ipsa autem omnis illum reprehenderit. Rem culpa nulla expedita accusamus obcaecati!</p>
+            <br><button>order now</button></div>
+        <div class="food">
+            <img src="bolo.webp" alt="">
+            <h2>price:1001</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, incidunt asperiores? Ullam quod eveniet mollitia animi laborum autem dignissimos! Id ea iusto ab eligendi incidunt non impedit exercitationem voluptatem fugiat dolore odit error numquam quos aliquam reprehenderit quam eveniet, perferendis repudiandae debitis pariatur neque culpa illum temporibus! Aut, velit quos?</p>
+            <br><button>order now</button></div>
+        <div class="food">
+            <img src="vegi.webp" alt="">
+            <h2>price:1002</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt pariatur repudiandae ratione, cumque ab illum libero vero voluptates quod numquam voluptate distinctio optio placeat iusto qui harum laboriosam velit maiores. Mollitia, quasi aperiam dolorum quos fugiat repellendus voluptatibus. Voluptatibus perferendis aspernatur quas id ducimus itaque iure ipsam maxime atque obcaecati!</p>
+            <br><button>order now</button></div>
+        <div class="food">
+            <img src="wow.jpg"1003</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, facilis molestias natus dolore at provident dolor porro itaque rerum dolores voluptatibus similique aspernatur! Odit, corrupti. Tempora veritatis laudantium provident quidem deserunt obcaecati alias saepe quam expedita? Nam, nisi esse. Perspiciatis et qui minus earum ad sunt itaque quidem quasi nobis?</p>
+            <br><button>order now</button></div>
+    </div>
+</body>
+</html>
