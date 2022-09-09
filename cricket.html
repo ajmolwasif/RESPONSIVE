@@ -6,38 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .GAME{
-            border: 1px solid lightblue;
-        }
-        .ball{
-            width: 80px;
-            height: 80px;
-            background-color: brown;
-            border-radius: 40px;
-            position: relative;
-            left: 500px;
-            top: -100px;
-            transition: transform 2s ease-out 0.5s;
-        }
-          .GAME:hover.ball{
-            transform: translate(700PX -300PX);
-        }
-        .GAME:hover .man{
-            transform: rotate(-60deg);
-            transform-origin: top;
-
-        }
-        .man{
-            transition: transform 0.5s;
-        }
-
+        
+     .football{
+        width: 700px;
+        height: 250px;
+        border: 2px solid royalblue;
+     }
+     .bat:hover{
+        transform: rotate(-60deg);
+        transform-origin: top right;
+        
+     }
+     .ball{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: red;
+        position: relative;
+        left: 240px;
+     }
+     
     </style>
 </head>
 <body>
-    <div class="GAME">
-        <img class="man" src="BEST2.png" alt="">
-        
+    <div class="football">
+       
+          <img class="bat" src="bat.jpg" alt="">
 
+       
     </div>
     <div class="ball">
 

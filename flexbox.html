@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <script src="https://kit.fontawesome.com/41eb736a7a.js" crossorigin="anonymous"></script>
+    <style>
+        .amar{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .box input,button{
+            font-size: 1.3em;
+            margin: 8px;
+            padding-left: 10px;
+            border: 1px solid gray;
+
+        }
+        button{
+            background-color: orange;
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            margin-right: 15px;
+        }
+        nav a:hover{
+            width: 60px;
+            background-color: gray;
+        }
+        .fa-solid{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">home</a>
+            <a href="">product</a>
+            <a href="">about us</a>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+
+        </nav>
+    </header>
+    
+    <section class="amar">
+        
+        <form action="" class="box">
+            <h3>login</h3>
+            <input type="email" placeholder="your email" name="email" id="">
+            <input type="password" placeholder="your password" name="passwprd" id="">
+            <button type="submit">login</button>
+        </form>
+    </section>
+    
+</body>
+</html>

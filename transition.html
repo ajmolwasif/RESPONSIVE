@@ -6,35 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h3{
-            color: moccasin;
-        }
-        .box{
-            width: 200px;
-            height: 200px;
-            border: 1px solid burlywood;
-            background-color: navy;
-            transition: width 15s,height 10s,transform 10s;
-        }
-        .box:hover{
-            width: 300px;
-            height: 300px;
-            transform: rotate(180deg);
-        }
+       .box{
+        width: 200px;
+        height: 150px;
+        background-color: salmon;
+        margin: 10px;
+        transition: width 5s ease-in, height 5s ease-in, transform 3s;
+       }
+       .box:hover{
+        width: 400px;
+        height: 400px;
+        transform: rotate(190deg);
+
+       }
     </style>
 </head>
 <body>
-   <div class="box">
-    <h3>transition</h3>
-   </div><br>
-
-   <div class="box">
-    <h3>transition</h3>
-   </div><br>
-
-   <div class="box">
-    <h3>transition</h3>
-   </div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
    
 </body>
 </html>
